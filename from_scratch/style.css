@@ -1,0 +1,108 @@
+
+/* clearfix */
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    }
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+/* End clearfix */
+
+img{width:100%;}
+
+h1 {font-family: 'Montserrat', sans-serif;}
+
+.txt_center{text-align: center;}
+
+body
+{
+	display: block;
+	margin: 3% 5%;
+	font-family: 'Robot', sans-serif;
+}
+
+/* Header Part */
+header
+{
+    margin-bottom: 3%;
+    text-align: center; /* added */
+}
+
+.header-container img
+{
+    /*float: left;*/
+    width: initial;
+    vertical-align: top;
+    padding-right: 2%;
+    padding-top: 1%;
+}
+
+.header-container h1
+{
+	/*float:left;*/
+	display: inline-block; /* 追加 */
+	font-weight: bold;
+	border-left: 1px solid brown;
+	border-right: 1px solid brown;
+	text-transform: uppercase;
+	padding: 1% 2%;
+	margin: auto;
+	letter-spacing: 0.1rem;
+}
+/* End Header Part */
+
+/* Item Part */
+
+/* For Liquid raiout */
+.liqd-container
+{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+}
+
+.liqd-item-wrap
+{
+	background: rgba(242,242,242,0.5);;
+	padding: 20px;
+	width: 600px;
+}
+
+ .liqd-txt-wrap
+{
+	background: rgba(242,242,242,0.5);;
+	padding: 20px;
+}
+
+.textwrap h3 {color: purple}
+
+.circle
+{
+	background-color: purple;
+	text-align: center;
+	border-radius: 50px;
+	height: 50px;
+	width: 50px;
+	margin: 0 auto;
+}
+
+.circle p {
+  position: relative;
+  top:50%;
+  transform: translateY(-50%);
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #fff;
+}
+/* End Item Part */
+
+/* Footer Part */
+footer p
+{
+    text-align: right;
+}
+/* End Footer  */
