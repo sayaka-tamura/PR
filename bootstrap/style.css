@@ -1,0 +1,64 @@
+.txt_center{text-align: center;}
+
+.center
+{
+    display: flex;
+    justify-content: center;
+}
+
+/* Bootstrap Grid Sysstem
+ */
+h4 {
+  margin-top: 25px;
+}
+.row {
+  margin-bottom: 20px;
+}
+.row .row {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+[class*="col-"] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #eee;
+  background-color: rgba(86,61,124,.15);
+  border: 1px solid #ddd;
+  border: 1px solid rgba(86,61,124,.2);
+}
+
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* End Bootstrap Grid Sysstem */
+
+.bs-example 
+{
+    margin-right: 0;
+    margin-left: 0;
+    background-color: #fff;
+    border-color: #ddd;
+    border-width: 1px;
+    border-radius: 4px 4px 0 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.jumbotron{background-image: url("img/Chaan_1.jpg")}
+
+.jumbotron .container h1 
+{
+    font-weight: bold;
+    color: rgba(219, 227, 59, 1);
+}
+
+/* carousel slide */
+.carousel{margin-bottom: 3%;}
+
+/* Thumbnail */
+.center p
+{
+    font-size: 2rem;
+}
